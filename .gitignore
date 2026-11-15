@@ -218,3 +218,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Virtual environment (rebuilt from pyproject.toml, never committed)
+.venv/
+
+# Python bytecode caches
+__pycache__/
+*.pyc
+
+# Build / packaging output
+build/
+dist/
+*.egg-info/
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS and editor clutter
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets (if you ever add an API key)
+.env
